@@ -13,6 +13,7 @@ public class LargestSmallestElementInArray {
 	private static void findSecondMinElement(int[] arr) {
 		int min= Integer.MAX_VALUE;
 		int secMin = Integer.MAX_VALUE;
+		//set seconMin if firstMin change
 		for(int num:arr) {
 			if(num<min) {
 				secMin = min;
