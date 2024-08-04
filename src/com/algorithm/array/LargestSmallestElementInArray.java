@@ -1,4 +1,4 @@
-package com.algorithm;
+package com.algorithm.array;
 
 //Find first max and second max
 //Find first min and second min
